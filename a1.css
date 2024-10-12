@@ -42,3 +42,22 @@ nav ul li a:hover {
     background: linear-gradient(90deg, #54caee, #ffbd33); /* Gradient background on hover */
     color: white; /* Ensure text color is white */
 }
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background for the whole page */
+    color: #333;
+}
+
+
+
+
+
