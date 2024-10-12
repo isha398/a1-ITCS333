@@ -102,3 +102,25 @@ nav ul li a:hover {
     }
 }
 
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Clean font */
+    background-color: #eaeaea; /* Light grey background for the whole page */
+}
+
+/* Section Styling */
+.section {
+    padding: 20px;
+    max-width: 800px; /* Adjust width for simplicity */
+    margin: auto;
+    font-family: 'Comic Sans MS', sans-serif; /* Child-friendly font */
+    
+    color: #FF6347;
+}
