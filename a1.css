@@ -43,108 +43,6 @@ nav ul li a:hover {
     color: white; /* Ensure text color is white */
 }
 
-
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* white background for the whole page */
-    color: #333;
-}
-
-
-
-/* Section Styling */
-.section {
-    padding: 20px;
-    max-width: 800px; /* Adjust width for simplicity */
-    margin: auto;
-    background-color: #ffffff; /* White background for the schedule section */
-    border-radius: 4px; /* Slightly rounded corners */
-}
-
-/* Weekly Schedule Section */
-#schedule {
-    background-color: #F0F8FF; /* Light blue background for a playful feel */
-    padding: 40px 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 40px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-}
-
-
-
-
-/* Schedule Header */
-h2 {
-    margin-bottom: 20px;
-    font-size: 2em; /* Larger font size for header */
-    color: #333; /* Dark color for better readability */
-}
-
-/* Flexbox for Schedule Table */
-.schedule-table {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Space items evenly */
-    gap: 15px; /* Space between schedule days */
-}
-
-/* Styling for Each Day */
-.schedule-day {
-    background-color: #e8f0fe; /* Light blue background for schedule days */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 4px; /* Slightly rounded corners */
-    padding: 15px;
-    width: 180px; /* Fixed width for each day */
-    flex: 1 1 auto; /* Allow items to grow and shrink */
-    text-align: center; /* Center the text */
-    transition: transform 0.2s; /* Add a transition for hover effect */
-}
-
-.schedule-day:hover {
-    transform: scale(1.05); /* Slightly scale up on hover */
-}
-
-/* Day Title Styling */
-.schedule-day h3 {
-    margin-bottom: 10px; /* Space below day title */
-    color: #007bff; /* Blue color for day titles */
-}
-
-
-/* Paragraph Styling */
-.schedule-day p {
-    color: #555; /* Dark grey for better readability */
-}
-
-
-
-/* Responsive Header for Mobile Devices */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        flex-direction: column;
-        width: 100%;
-        gap: 10px;
-    }
-
-    nav ul li a {
-        width: 100%;
-        text-align: center;
-    }
-}
-
 /* Welcome Section */
 #welcome {
     margin-top: 40 PX;
@@ -171,8 +69,6 @@ h2 {
     font-family: 'Arial', sans-serif;
 }
 
-
-
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     #welcome {
@@ -187,3 +83,4 @@ h2 {
         font-size: 1rem;
     }
 }
+
