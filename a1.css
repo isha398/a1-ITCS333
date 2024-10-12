@@ -1,3 +1,10 @@
-h1 {
-    color: red;
+/* Header Section */
+header {
+    background-color: #f7eb86;/* Bright yellow for a playful look */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solidc;; /* Orange border for extra flair */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
