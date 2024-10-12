@@ -145,4 +145,28 @@ h2 {
     }
 }
 
+/* Welcome Section */
+#welcome {
+    margin-top: 40 PX;
+    background-color: #FFFACD; /* Light yellow background for a warm feel */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px; /* Space between sections */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
 
+#welcome h2 {
+    font-size: 300;
+    font-family: 'Comic Sans MS', sans-serif; /* Child-friendly font */
+    color: #FF6347; /* Tomato red for a playful, friendly look */
+    margin-bottom: 20px;
+}
+
+#welcome p {
+    font-size: 122;
+    color: #333;
+    line-height: 1.8; /* More space between lines for readability */
+    margin-bottom: 0;
+    font-family: 'Arial', sans-serif;
+}
