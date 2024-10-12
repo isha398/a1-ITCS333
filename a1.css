@@ -43,6 +43,24 @@ nav ul li a:hover {
     color: white; /* Ensure text color is white */
 }
 
+/* Responsive Header for Mobile Devices */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        width: 100%;
+        text-align: center;
+    }
+}
 /* Welcome Section */
 #welcome {
     margin-top: 40 PX;
