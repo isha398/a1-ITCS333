@@ -228,3 +228,59 @@ img {
     border-radius: 4px; /* Slightly rounded corners */
 
 }
+
+
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light grey background for the whole page */
+    color: #333; /* Dark text color for readability */
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    max-width: 800px; /* Center and limit width */
+    margin: 20px auto; /* Center the sections */
+    background-color: #FFFACD; /* Whitebackground for sections */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Section Headers */
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger font size for headers */
+    color: #FF6347; /* Blue color for section headers */
+    text-align: center; /* Center the section headers */
+}
+
+/* List Styling */
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove padding */
+}
+
+li {
+    position: relative; /* Position relative for absolute positioning of circle */
+    margin: 10px 0; /* Space between list items */
+    padding: 10px; /* Padding for each list item */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+    color: #4a4a4a; /* Dark grey text color for list items */
+}
+
+/* Paragraph Styling */
+p {
+    color: #4a4a4a; /* Dark grey for better readability */
+    line-height: 1.6; /* Increase line height for readability */
+    margin-top: 20px; /* Space above the paragraph */
+}
