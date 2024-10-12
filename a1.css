@@ -284,3 +284,11 @@ p {
     line-height: 1.6; /* Increase line height for readability */
     margin-top: 20px; /* Space above the paragraph */
 }
+/* Footer Styling */
+footer {
+    text-align: center; /* Center the footer text */
+    padding: 20px 0; /* Padding for the footer */
+    background-color: #aacbee; /* Blue background for footer */
+    color: white; /* Whiفث text color for footer */
+    margin-top: 20px; /* Space above the footer */
+}
